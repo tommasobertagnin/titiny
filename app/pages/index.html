@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TiTiny - url shortener</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      .content {
+        min-width: 440px;
+        margin: 0 auto;
+        width: 75%;
+      }
+      code {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>FreeCodeCamp: URL Shortener Microservice</h1>
+
+      <p><strong>User stories:</strong></p>
+      <p>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+      When I visit that shortened URL, it will redirect me to my original link.</p>
+
+      <p>Example creation usage:</p>
+      <code>
+        https://titiny.herokuapp.com/shorten/https://www.google.com
+        https://titiny.herokuapp.com/shorten/http://foo.com:80
+      </code>
+
+      <p>Example creation output:</p>
+      <code>{ "original_url":"http://foo.com:80", "short_url":"https://titiny.herokuapp.com/foha82" }</code>
+    </div>
+  </body>
+</html>
